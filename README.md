@@ -11,7 +11,11 @@ gateway, so it stays reachable across the DCI and during leaf failover.
 ![Topology](topology/topology.png)
 
 Animated SVG: [`docs/SONIC_ESI_MULTISITE_ANIMATED.svg`](docs/SONIC_ESI_MULTISITE_ANIMATED.svg)
-— open the raw SVG in a browser to see the moving dashes.
+— open the raw SVG in a browser to see the moving dashes and packet dots.
+
+The diagram uses a high-contrast NOC theme: glass site cards with `01`/`02`
+badges, glowing Cisco 19 stencils, a central DCI core, animated packet dots,
+and compact flow/address panels.
 
 The SVG is self-contained and uses actual Cisco 19 stencil paths:
 `mxgraph.cisco19.nexus_9300` for all switches (N9Kv and SONiC) and
