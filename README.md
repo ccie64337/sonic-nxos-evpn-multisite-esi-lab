@@ -8,10 +8,13 @@ overlay is iBGP EVPN; the DCI is a Cisco EVPN Multi-Site border-gateway pair.
 EP12 is dual-homed to the two SONiC leaves with an ESI LAG and an anycast
 gateway, so it stays reachable across the DCI and during leaf failover.
 
-![Topology](topology/topology.png)
+![Topology](docs/SONIC_ESI_MULTISITE_ANIMATED.gif)
 
 Animated SVG: [`docs/SONIC_ESI_MULTISITE_ANIMATED.svg`](docs/SONIC_ESI_MULTISITE_ANIMATED.svg)
 — open the raw SVG in a browser to see the moving dashes.
+
+Animated GIF: [`docs/SONIC_ESI_MULTISITE_ANIMATED.gif`](docs/SONIC_ESI_MULTISITE_ANIMATED.gif)
+— looping 14-frame preview.
 
 The diagram uses a clean flat theme: white site cards with `01`/`02` badges,
 flat Cisco 19 stencils, a central DCI core, subtle animated flow lines, and
@@ -109,6 +112,7 @@ through SN21 (1 port, 0% loss); restoring returns 2 ports and 0% loss.
 │   ├── troubleshooting.md
 │   ├── traffic-filters.md
 │   ├── SONIC_ESI_MULTISITE_ANIMATED.svg
+│   ├── SONIC_ESI_MULTISITE_ANIMATED.gif
 │   └── canvas.md
 └── validation/
     └── traffic_filters.json

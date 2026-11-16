@@ -76,5 +76,6 @@ icon-sized so the links meet the Cisco icon borders; site-box margins are
 balanced.
 
 The inter-site path and EP12 ESI LAG use CSS `@keyframes flowdash` on dashed
-links. Open the raw SVG in a browser to see the animation. The SVG is
+links. Open the raw SVG in a browser to see the animation. A 14-frame looping
+GIF preview is at `SONIC_ESI_MULTISITE_ANIMATED.gif`. The SVG is
 documentation only and is not loaded by EVE-NG.
