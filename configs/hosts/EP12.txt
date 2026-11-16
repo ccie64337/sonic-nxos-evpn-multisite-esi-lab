@@ -1,0 +1,93 @@
+# EP12 host state (captured from the live lab)
+
+===== ip -br addr =====
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+eth0             UP             10.99.99.10/24 
+eth1             UP             10.99.99.10/24 
+bond0            UP             10.100.100.12/24 fe80::dcc9:5fff:fe2d:97e7/64 
+
+===== ip route =====
+default via 10.99.99.1 dev eth0 proto static 
+default via 10.99.99.1 dev eth1 proto static 
+10.99.99.0/24 dev eth0 proto kernel scope link src 10.99.99.10 
+10.99.99.0/24 dev eth1 proto kernel scope link src 10.99.99.10 
+10.100.100.0/24 dev bond0 proto kernel scope link src 10.100.100.12 
+
+===== cat /proc/net/bonding/bond0 =====
+Ethernet Channel Bonding Driver: v6.1.0-54-cloud-amd64
+
+Bonding Mode: IEEE 802.3ad Dynamic link aggregation
+Transmit Hash Policy: layer3+4 (1)
+MII Status: up
+MII Polling Interval (ms): 100
+Up Delay (ms): 0
+Down Delay (ms): 0
+Peer Notification Delay (ms): 0
+
+802.3ad info
+LACP active: on
+LACP rate: fast
+Min links: 0
+Aggregator selection policy (ad_select): stable
+System priority: 65535
+System MAC address: de:c9:5f:2d:97:e7
+Active Aggregator Info:
+	Aggregator ID: 1
+	Number of ports: 2
+	Actor Key: 9
+	Partner Key: 0
+	Partner Mac Address: 22:63:39:58:ff:0a
+
+Slave Interface: eth0
+MII Status: up
+Speed: 1000 Mbps
+Duplex: full
+Link Failure Count: 0
+Permanent HW addr: 50:01:00:0d:00:00
+Slave queue ID: 0
+Aggregator ID: 1
+Actor Churn State: none
+Partner Churn State: none
+Actor Churned Count: 0
+Partner Churned Count: 0
+details actor lacp pdu:
+    system priority: 65535
+    system mac address: de:c9:5f:2d:97:e7
+    port key: 9
+    port priority: 255
+    port number: 1
+    port state: 63
+details partner lacp pdu:
+    system priority: 65535
+    system mac address: 22:63:39:58:ff:0a
+    oper key: 0
+    port priority: 255
+    port number: 1
+    port state: 61
+
+Slave Interface: eth1
+MII Status: up
+Speed: 1000 Mbps
+Duplex: full
+Link Failure Count: 0
+Permanent HW addr: 50:01:00:0d:00:01
+Slave queue ID: 0
+Aggregator ID: 1
+Actor Churn State: none
+Partner Churn State: none
+Actor Churned Count: 0
+Partner Churned Count: 0
+details actor lacp pdu:
+    system priority: 65535
+    system mac address: de:c9:5f:2d:97:e7
+    port key: 9
+    port priority: 255
+    port number: 2
+    port state: 63
+details partner lacp pdu:
+    system priority: 65535
+    system mac address: 22:63:39:58:ff:0a
+    oper key: 0
+    port priority: 255
+    port number: 1
+    port state: 61

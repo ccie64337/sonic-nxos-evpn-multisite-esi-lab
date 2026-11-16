@@ -1,0 +1,16 @@
+[
+    {
+        "title": "EP11 <-> EP21 ICMP",
+        "filter_expr": "icmp and host 10.100.100.11 and host 10.100.100.13",
+        "enabled": 1,
+        "color": "#00e5ff",
+        "timeout": 5000
+    },
+    {
+        "title": "VXLAN underlay",
+        "filter_expr": "udp port 4789",
+        "enabled": 1,
+        "color": "#ffb84d",
+        "timeout": 5000
+    }
+]
