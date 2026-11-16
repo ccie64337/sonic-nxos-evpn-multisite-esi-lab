@@ -95,8 +95,7 @@ through SN21 (1 port, 0% loss); restoring returns 2 ports and 0% loss.
 .
 ├── README.md
 ├── topology/
-│   ├── topology.png                         # annotated documentation canvas
-│   ├── SONIC_NXOS_MULTISITE_ESI_CANVAS.svg  # editable SVG canvas
+│   ├── topology.png                         # static frame of the animated SVG
 │   └── SONIC_ESI_MULTISITE.unl              # EVE-NG lab file (sanitized)
 ├── configs/
 │   ├── nxos/                                # SPN11/21, LF11/21, BGW11/21
@@ -112,8 +111,7 @@ through SN21 (1 port, 0% loss); restoring returns 2 ports and 0% loss.
 │   ├── SONIC_ESI_MULTISITE_ANIMATED.svg
 │   └── canvas.md
 └── validation/
-    ├── traffic_filters.json
-    └── README.md
+    └── traffic_filters.json
 ```
 
 ## Prerequisites

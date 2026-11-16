@@ -59,12 +59,6 @@ The repository `.unl` is a sanitized copy: the lab-info text object uses
 `[NXOS_PASSWORD]`, `[SONIC_PASSWORD]`, and `[LINUX_PASSWORD]` placeholders.
 The live lab keeps its own credentials.
 
-## Documentation canvas
-
-`SONIC_NXOS_MULTISITE_ESI_CANVAS.svg` and `topology.png` show the same
-high-contrast NOC design (the PNG is a static frame). They are useful for
-README/diagram export; they are not part of the EVE topology.
-
 ## Animated SVG
 
 `SONIC_ESI_MULTISITE_ANIMATED.svg` is a self-contained animated diagram. It
