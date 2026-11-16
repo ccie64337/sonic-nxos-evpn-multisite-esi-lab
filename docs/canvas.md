@@ -65,25 +65,20 @@ The live lab keeps its own credentials.
 with site boxes, site IDs, link labels, and the address plan. They are useful
 for README/diagram export; they are not part of the EVE topology.
 
-## Animated draw.io
+## Animated SVG
 
-`SONIC_ESI_MULTISITE_ANIMATED.drawio` is a draw.io/diagrams.net source with the
-same topology. It uses Cisco 19 stencils:
+`SONIC_ESI_MULTISITE_ANIMATED.svg` is a self-contained animated diagram. It
+uses actual Cisco 19 stencil paths:
 
 - `mxgraph.cisco19.nexus_9300` for all switches (N9Kv and SONiC)
 - `mxgraph.cisco19.server` for hosts
 
 The Cisco 19 library has no literal `nexus_9000v` shape; `nexus_9300` is the
 closest 9000-series switch icon and is labeled accordingly. In DC2 the row is
-**BGW21 — SN21 — LF21**, with the SONiC leaf centered. The animated SVG uses
-the same Cisco 19 stencil paths and layout.
+**BGW21 — SN21 — LF21**, with the SONiC leaf centered. Node geometry is
+icon-sized so the links meet the Cisco icon borders; site-box margins are
+balanced.
 
-The inter-site path and EP12 ESI LAG use native draw.io flow animation:
-`flowAnimation=1; flowDuration=2000; flowTiming=linear;
-flowDirection=normal` (ESI uses `alternate`). Open it in draw.io and use
-View/Present; select an edge → Style → Flow Animation to inspect or change it.
-
-GitHub’s `.drawio` preview is static. Use
-`SONIC_ESI_MULTISITE_ANIMATED.svg` (raw in a browser) to see the moving dashes,
-or export the draw.io diagram to SVG (draw.io preserves connector animation in
-SVG). The `.drawio` file is documentation only and is not loaded by EVE-NG.
+The inter-site path and EP12 ESI LAG use CSS `@keyframes flowdash` on dashed
+links. Open the raw SVG in a browser to see the animation. The SVG is
+documentation only and is not loaded by EVE-NG.
