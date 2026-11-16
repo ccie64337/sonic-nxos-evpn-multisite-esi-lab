@@ -12,7 +12,17 @@ gateway, so it stays reachable across the DCI and during leaf failover.
 
 Animated draw.io source: [`docs/SONIC_ESI_MULTISITE_ANIMATED.drawio`](docs/SONIC_ESI_MULTISITE_ANIMATED.drawio)
 — open it in draw.io/diagrams.net; the inter-site and ESI paths use
-`flowAnimation=1`.
+`flowAnimation=1` with Flow Duration/Timing/Direction.
+
+Animated SVG preview: [`docs/SONIC_ESI_MULTISITE_ANIMATED.svg`](docs/SONIC_ESI_MULTISITE_ANIMATED.svg)
+— open the raw SVG in a browser to see the moving dashes. GitHub’s `.drawio`
+preview is static; the draw.io editor/viewer or the SVG carries the animation.
+
+The draw.io file uses Cisco 19 stencils: `mxgraph.cisco19.nexus_9300` for
+N9Kv spine/leaf/BGW, `mxgraph.cisco19.l3_switch` for SONiC leaves, and
+`mxgraph.cisco19.server` for hosts. The Cisco 19 library has no literal
+`nexus_9000v` shape; `nexus_9300` is the closest 9000-series switch icon and
+is labeled “Nexus 9000v / N9Kv”.
 
 ## What is in the lab
 
@@ -99,6 +109,7 @@ through SN21 (1 port, 0% loss); restoring returns 2 ports and 0% loss.
 │   ├── troubleshooting.md
 │   ├── traffic-filters.md
 │   ├── SONIC_ESI_MULTISITE_ANIMATED.drawio
+│   ├── SONIC_ESI_MULTISITE_ANIMATED.svg
 │   └── canvas.md
 └── validation/
     ├── traffic_filters.json
