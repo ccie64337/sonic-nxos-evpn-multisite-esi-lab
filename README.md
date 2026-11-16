@@ -10,6 +10,10 @@ gateway, so it stays reachable across the DCI and during leaf failover.
 
 ![Topology](topology/topology.png)
 
+Animated draw.io source: [`docs/SONIC_ESI_MULTISITE_ANIMATED.drawio`](docs/SONIC_ESI_MULTISITE_ANIMATED.drawio)
+— open it in draw.io/diagrams.net; the inter-site and ESI paths use
+`flowAnimation=1`.
+
 ## What is in the lab
 
 | Site | Spine | NX-OS leaf | Border GW | SONiC leaf | Hosts |
@@ -94,6 +98,7 @@ through SN21 (1 port, 0% loss); restoring returns 2 ports and 0% loss.
 │   ├── validation.md
 │   ├── troubleshooting.md
 │   ├── traffic-filters.md
+│   ├── SONIC_ESI_MULTISITE_ANIMATED.drawio
 │   └── canvas.md
 └── validation/
     ├── traffic_filters.json

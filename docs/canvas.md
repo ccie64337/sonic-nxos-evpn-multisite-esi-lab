@@ -64,3 +64,10 @@ The live lab keeps its own credentials.
 `SONIC_NXOS_MULTISITE_ESI_CANVAS.svg` and `topology.png` show the same layout
 with site boxes, site IDs, link labels, and the address plan. They are useful
 for README/diagram export; they are not part of the EVE topology.
+
+## Animated draw.io
+
+`SONIC_ESI_MULTISITE_ANIMATED.drawio` is a draw.io/diagrams.net source with the
+same topology. The inter-site path and the EP12 ESI LAG use
+`flowAnimation=1`; open it in draw.io and use View/Present to see the moving
+dashes. The `.drawio` file is documentation only and is not loaded by EVE-NG.
