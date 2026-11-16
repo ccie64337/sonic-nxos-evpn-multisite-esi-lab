@@ -7,7 +7,10 @@ the intent and the non-obvious steps.
 
 - EVE-NG 6.x (Pro for traffic filters).
 - N9Kv `nxosv9k-10.6.3.F` for SPN11/SPN21, LF11/LF21, BGW11/BGW21.
-- SONiC `sonicsw-202511` for SN11/SN21.
+- SONiC `sonicsw-202511` for SN11/SN21. Download the VS 202511 image:
+  <https://sonic-build.azurewebsites.net/api/sonic/artifacts?branchName=202511&platform=vs&target=target%2Fsonic-vs.img.gz>.
+  The lab runs `SONiC.202511.1275431-72b5bece8`; the link downloads the latest
+  202511 VS build.
 - Linux hosts for EP11/EP12/EP21.
 - Management network `10.0.0.0/24`, gateway `10.0.0.254`.
 

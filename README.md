@@ -104,7 +104,10 @@ through SN21 (1 port, 0% loss); restoring returns 2 ports and 0% loss.
 
 - EVE-NG 6.x (Pro for the native traffic-filter feature).
 - N9Kv image `nxosv9k-10.6.3.F`.
-- SONiC image `sonicsw-202511`.
+- SONiC VS image (202511 branch): [sonic-vs.img.gz](https://sonic-build.azurewebsites.net/api/sonic/artifacts?branchName=202511&platform=vs&target=target%2Fsonic-vs.img.gz).
+  The lab runs `SONiC.202511.1275431-72b5bece8`; the link downloads the latest 202511 VS build.
+  Installation images: <https://sonic.software>.
+  EVE-NG image name: `sonicsw-202511`.
 - A Linux host image for EP11/EP12/EP21.
 - Management network `10.0.0.0/24` (gateway `10.0.0.254`).
 
