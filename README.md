@@ -18,11 +18,12 @@ Animated SVG preview: [`docs/SONIC_ESI_MULTISITE_ANIMATED.svg`](docs/SONIC_ESI_M
 — open the raw SVG in a browser to see the moving dashes. GitHub’s `.drawio`
 preview is static; the draw.io editor/viewer or the SVG carries the animation.
 
-The draw.io file uses Cisco 19 stencils: `mxgraph.cisco19.nexus_9300` for
-N9Kv spine/leaf/BGW, `mxgraph.cisco19.l3_switch` for SONiC leaves, and
+The draw.io file and animated SVG use Cisco 19 stencils:
+`mxgraph.cisco19.nexus_9300` for all switches (N9Kv and SONiC) and
 `mxgraph.cisco19.server` for hosts. The Cisco 19 library has no literal
 `nexus_9000v` shape; `nexus_9300` is the closest 9000-series switch icon and
-is labeled “Nexus 9000v / N9Kv”.
+is labeled accordingly. In DC2 the row is **BGW21 — SN21 — LF21**, with the
+SONiC leaf centered.
 
 ## What is in the lab
 

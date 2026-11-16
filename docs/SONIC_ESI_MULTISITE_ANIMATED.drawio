@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<mxfile host="app.diagrams.net" modified="2026-11-16T10:39:41.000Z" agent="OpenCode" version="24.7.17" type="device">
+<mxfile host="app.diagrams.net" modified="2026-11-16T10:52:09.000Z" agent="OpenCode" version="24.7.17" type="device">
   <diagram id="sonic-esi-multisite" name="SONiC ESI Multi-Site">
     <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="900" math="0" shadow="0">
       <root>
@@ -18,37 +18,37 @@
           <mxGeometry x="500" y="20" width="800" height="55" as="geometry" />
         </mxCell>
         <mxCell id="SPN11" value="&lt;b&gt;SPN11&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;Nexus 9000v / RR&lt;/font&gt;" style="shape=mxgraph.cisco19.nexus_9300;html=1;fillColor=#1f4e79;strokeColor=#0b2e59;fontColor=#1f2d3d;fontSize=11;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=2;" vertex="1" parent="1">
-          <mxGeometry x="360" y="180" width="80" height="80" as="geometry" />
+          <mxGeometry x="400" y="180" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LF11" value="&lt;b&gt;LF11&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;N9Kv leaf / VTEP&lt;/font&gt;" style="shape=mxgraph.cisco19.nexus_9300;html=1;fillColor=#cfe2f3;strokeColor=#4a6fa5;fontColor=#1f2d3d;fontSize=11;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=2;" vertex="1" parent="1">
-          <mxGeometry x="120" y="360" width="80" height="80" as="geometry" />
+        <mxCell id="LF11" value="&lt;b&gt;LF11&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;N9Kv leaf / VTEP&lt;/font&gt;" style="shape=mxgraph.cisco19.nexus_9300;html=1;fillColor=#6c8ebf;strokeColor=#4a6fa5;fontColor=#1f2d3d;fontSize=11;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="SN11" value="&lt;b&gt;SN11&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;SONiC leaf / ESI&lt;/font&gt;" style="shape=mxgraph.cisco19.l3_switch;html=1;fillColor=#b2dfdb;strokeColor=#00897b;fontColor=#004d40;fontSize=11;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=2;" vertex="1" parent="1">
-          <mxGeometry x="340" y="360" width="80" height="80" as="geometry" />
+        <mxCell id="SN11" value="&lt;b&gt;SN11&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;SONiC leaf / ESI&lt;/font&gt;" style="shape=mxgraph.cisco19.nexus_9300;html=1;fillColor=#26a69a;strokeColor=#00897b;fontColor=#004d40;fontSize=11;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="360" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BGW11" value="&lt;b&gt;BGW11&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;N9Kv multi-site BGW&lt;/font&gt;" style="shape=mxgraph.cisco19.nexus_9300;html=1;fillColor=#f6b26b;strokeColor=#b45f06;fontColor=#5b2c06;fontSize=11;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=2;" vertex="1" parent="1">
-          <mxGeometry x="600" y="360" width="80" height="80" as="geometry" />
+          <mxGeometry x="640" y="360" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EP11" value="&lt;b&gt;EP11&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;10.100.100.11&lt;/font&gt;" style="shape=mxgraph.cisco19.server;html=1;fillColor=#e0e0e0;strokeColor=#9e9e9e;fontColor=#333333;fontSize=11;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=2;" vertex="1" parent="1">
-          <mxGeometry x="120" y="520" width="80" height="80" as="geometry" />
+        <mxCell id="EP11" value="&lt;b&gt;EP11&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;10.100.100.11&lt;/font&gt;" style="shape=mxgraph.cisco19.server;html=1;fillColor=#b0bec5;strokeColor=#9e9e9e;fontColor=#333333;fontSize=11;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="520" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EP12" value="&lt;b&gt;EP12&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;10.100.100.12 / bond&lt;/font&gt;" style="shape=mxgraph.cisco19.server;html=1;fillColor=#e0e0e0;strokeColor=#9e9e9e;fontColor=#333333;fontSize=11;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=2;" vertex="1" parent="1">
+        <mxCell id="EP12" value="&lt;b&gt;EP12&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;10.100.100.12 / bond&lt;/font&gt;" style="shape=mxgraph.cisco19.server;html=1;fillColor=#b0bec5;strokeColor=#9e9e9e;fontColor=#333333;fontSize=11;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=2;" vertex="1" parent="1">
           <mxGeometry x="840" y="540" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SPN21" value="&lt;b&gt;SPN21&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;Nexus 9000v / RR&lt;/font&gt;" style="shape=mxgraph.cisco19.nexus_9300;html=1;fillColor=#1f4e79;strokeColor=#0b2e59;fontColor=#1f2d3d;fontSize=11;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=2;" vertex="1" parent="1">
-          <mxGeometry x="1280" y="180" width="80" height="80" as="geometry" />
+          <mxGeometry x="1240" y="180" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LF21" value="&lt;b&gt;LF21&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;N9Kv leaf / VTEP&lt;/font&gt;" style="shape=mxgraph.cisco19.nexus_9300;html=1;fillColor=#cfe2f3;strokeColor=#4a6fa5;fontColor=#1f2d3d;fontSize=11;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=2;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="360" width="80" height="80" as="geometry" />
+        <mxCell id="LF21" value="&lt;b&gt;LF21&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;N9Kv leaf / VTEP&lt;/font&gt;" style="shape=mxgraph.cisco19.nexus_9300;html=1;fillColor=#6c8ebf;strokeColor=#4a6fa5;fontColor=#1f2d3d;fontSize=11;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=2;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="360" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="SN21" value="&lt;b&gt;SN21&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;SONiC leaf / ESI&lt;/font&gt;" style="shape=mxgraph.cisco19.l3_switch;html=1;fillColor=#b2dfdb;strokeColor=#00897b;fontColor=#004d40;fontSize=11;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=2;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="360" width="80" height="80" as="geometry" />
+        <mxCell id="SN21" value="&lt;b&gt;SN21&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;SONiC leaf / ESI&lt;/font&gt;" style="shape=mxgraph.cisco19.nexus_9300;html=1;fillColor=#26a69a;strokeColor=#00897b;fontColor=#004d40;fontSize=11;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=2;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="360" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BGW21" value="&lt;b&gt;BGW21&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;N9Kv multi-site BGW&lt;/font&gt;" style="shape=mxgraph.cisco19.nexus_9300;html=1;fillColor=#f6b26b;strokeColor=#b45f06;fontColor=#5b2c06;fontSize=11;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=2;" vertex="1" parent="1">
           <mxGeometry x="980" y="360" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EP21" value="&lt;b&gt;EP21&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;10.100.100.13&lt;/font&gt;" style="shape=mxgraph.cisco19.server;html=1;fillColor=#e0e0e0;strokeColor=#9e9e9e;fontColor=#333333;fontSize=11;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=2;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="520" width="80" height="80" as="geometry" />
+        <mxCell id="EP21" value="&lt;b&gt;EP21&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:10px&quot;&gt;10.100.100.13&lt;/font&gt;" style="shape=mxgraph.cisco19.server;html=1;fillColor=#b0bec5;strokeColor=#9e9e9e;fontColor=#333333;fontSize=11;fontStyle=1;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=2;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="520" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="e-spn11-lf11" value="10.1.1.0/31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;labelBackgroundColor=#ffffff;fontSize=10;fontColor=#1f2d3d;strokeColor=#00bcd4;strokeWidth=3;dashed=1;dashPattern=8 8;flowAnimation=1;flowDuration=2000;flowTiming=linear;flowDirection=normal;" edge="1" parent="1" source="SPN11" target="LF11">
           <mxGeometry relative="1" as="geometry" />
@@ -83,7 +83,7 @@
         <mxCell id="e-sn21-ep12" value="ESI LAG" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;labelBackgroundColor=#ffffff;fontSize=10;fontColor=#1f2d3d;strokeColor=#2e8b57;strokeWidth=3;dashed=1;dashPattern=8 8;flowAnimation=1;flowDuration=2000;flowTiming=linear;flowDirection=alternate;" edge="1" parent="1" source="SN21" target="EP12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="flow-panel" value="&lt;b&gt;Animated flow&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#00bcd4&quot;&gt;▶&lt;/font&gt; EP11 → LF11 → SPN11 → BGW11 → DCI → BGW21 → SPN21 → LF21 → EP21&lt;br&gt;&lt;font color=&quot;#2e8b57&quot;&gt;▶&lt;/font&gt; EP12 ESI LAG ↔ SN11 / SN21&lt;br&gt;&lt;font color=&quot;#4a6fa5&quot;&gt;▶&lt;/font&gt; solid: underlay / access links&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;Cisco 19: nexus_9300 = N9Kv · l3_switch = SONiC · server = host&lt;br&gt;Draw.io: select edges → Style → Flow Animation; View/Present. GitHub preview is static.&lt;br&gt;Export to SVG to preserve the animation on the web.&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0b1220;strokeColor=#4a6fa5;fontColor=#e8f0ff;align=left;verticalAlign=top;spacing=10;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="flow-panel" value="&lt;b&gt;Animated flow&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#00bcd4&quot;&gt;▶&lt;/font&gt; EP11 → LF11 → SPN11 → BGW11 → DCI → BGW21 → SPN21 → LF21 → EP21&lt;br&gt;&lt;font color=&quot;#2e8b57&quot;&gt;▶&lt;/font&gt; EP12 ESI LAG ↔ SN11 / SN21&lt;br&gt;&lt;font color=&quot;#4a6fa5&quot;&gt;▶&lt;/font&gt; solid: underlay / access links&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;Cisco 19: nexus_9300 = N9Kv/SONiC switch · server = host&lt;br&gt;Draw.io: select edges → Style → Flow Animation; View/Present. GitHub preview is static.&lt;br&gt;Export to SVG to preserve the animation on the web.&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0b1220;strokeColor=#4a6fa5;fontColor=#e8f0ff;align=left;verticalAlign=top;spacing=10;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="60" y="700" width="760" height="150" as="geometry" />
         </mxCell>
         <mxCell id="info-panel" value="&lt;b&gt;Address / ASN plan&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;Site 1 AS 65001 · local-as SPN11 65100, LF11 65101, SN11 65102, BGW11 65103&lt;br&gt;Site 2 AS 65002 · local-as SPN21 65200, LF21 65201, SN21 65202, BGW21 65203&lt;br&gt;DCI underlay 10.1.4.0/31 · EVPN loopbacks 1.1.1.10 ↔ 2.2.2.10&lt;br&gt;VLAN 100 · VNI 10000 · SVI 10.100.100.1/24 · ESI 03:02:00:00:00:01:01:00:00:01&lt;br&gt;Hosts EP11 10.100.100.11 · EP12 10.100.100.12 (bond) · EP21 10.100.100.13&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0b1220;strokeColor=#4a6fa5;fontColor=#e8f0ff;align=left;verticalAlign=top;spacing=10;fontSize=12;" vertex="1" parent="1">

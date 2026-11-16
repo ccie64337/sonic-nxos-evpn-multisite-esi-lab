@@ -70,12 +70,13 @@ for README/diagram export; they are not part of the EVE topology.
 `SONIC_ESI_MULTISITE_ANIMATED.drawio` is a draw.io/diagrams.net source with the
 same topology. It uses Cisco 19 stencils:
 
-- `mxgraph.cisco19.nexus_9300` for N9Kv spine/leaf/BGW
-- `mxgraph.cisco19.l3_switch` for SONiC leaves
+- `mxgraph.cisco19.nexus_9300` for all switches (N9Kv and SONiC)
 - `mxgraph.cisco19.server` for hosts
 
 The Cisco 19 library has no literal `nexus_9000v` shape; `nexus_9300` is the
-closest 9000-series switch icon and is labeled “Nexus 9000v / N9Kv”.
+closest 9000-series switch icon and is labeled accordingly. In DC2 the row is
+**BGW21 — SN21 — LF21**, with the SONiC leaf centered. The animated SVG uses
+the same Cisco 19 stencil paths and layout.
 
 The inter-site path and EP12 ESI LAG use native draw.io flow animation:
 `flowAnimation=1; flowDuration=2000; flowTiming=linear;
