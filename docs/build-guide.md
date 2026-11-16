@@ -228,21 +228,13 @@ ip addr add 10.100.100.12/24 dev bond0
 ip route add default via 10.100.100.1
 ```
 
-## 7. EVE canvas
-
-- SITE 1 / SITE 2 / DCI boxes are native EVE text objects.
-- Link IPs are native interface `label` attributes; set the same label on both
-  endpoints so EVE's topology API resolves it.
-- The site boxes use `Site ID: 1` / `Site ID: 2` in their titles.
-- The SVG/PNG in `topology/` is documentation, not loaded by EVE.
-
-## 8. Optional: native EVE Pro traffic filters
+## 7. Optional: native EVE Pro traffic filters
 
 Add the two filters from `validation/traffic_filters.json` via the lab UI
 (filter icon → Traffic Filters) or the Pro API. See
 [`traffic-filters.md`](traffic-filters.md).
 
-## 9. Save
+## 8. Save
 
 On NX-OS: `copy running-config startup-config`.
 On SONiC: save CONFIG_DB and the FRR config; ESI/FRR is not persistent unless

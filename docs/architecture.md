@@ -113,11 +113,7 @@ EP11 → EP21:
 EP12 is dual-homed to SN11/SN21. Local traffic uses the local SONiC leaf;
 during a leaf/port failure, traffic uses the other member of the ESI LAG.
 
-## EVE-NG canvas and traffic filters
-
-The EVE canvas uses native text objects for the SITE 1/SITE 2/DCI boxes and
-native interface `label` attributes for the link IPs. The standalone SVG/PNG in
-`topology/` is documentation only; EVE does not load it.
+## EVE-NG traffic filters
 
 EVE-NG Pro 6.4.0-50+ adds native live Traffic Filters. The lab includes two
 filters (ICMP host flow and VXLAN underlay). See

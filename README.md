@@ -10,25 +10,11 @@ gateway, so it stays reachable across the DCI and during leaf failover.
 
 **Lab summary:** [`docs/LAB_SUMMARY.md`](docs/LAB_SUMMARY.md)
 
-![Topology](docs/SONIC_ESI_MULTISITE_ANIMATED.gif)
+![Topology](topology/topology.png)
 
-Animated SVG: [`docs/SONIC_ESI_MULTISITE_ANIMATED.svg`](docs/SONIC_ESI_MULTISITE_ANIMATED.svg)
-— open the raw SVG in a browser to see the moving dashes.
-
-Animated GIF: [`docs/SONIC_ESI_MULTISITE_ANIMATED.gif`](docs/SONIC_ESI_MULTISITE_ANIMATED.gif)
-— looping 14-frame preview.
-
-The diagram uses a clean flat theme: white site cards with `01`/`02` badges,
-flat Cisco 19 stencils, a central DCI core, subtle animated flow lines, and
-compact flow/address panels.
-
-The SVG is self-contained and uses actual Cisco 19 stencil paths:
-`mxgraph.cisco19.nexus_9300` for all switches (N9Kv and SONiC) and
-`mxgraph.cisco19.server` for hosts. The Cisco 19 library has no literal
-`nexus_9000v` shape; `nexus_9300` is the closest 9000-series switch icon and
-is labeled accordingly. In DC2 the row is **BGW21 — SN21 — LF21**, with the
-SONiC leaf centered. Node geometry is icon-sized so the links meet the Cisco
-icon borders; site-box margins are balanced.
+Static topology preview. The editable EVE-NG lab is
+`topology/SONIC_ESI_MULTISITE.unl`; an animated SVG is available at
+`docs/SONIC_ESI_MULTISITE_ANIMATED.svg`.
 
 ## What is in the lab
 
@@ -100,7 +86,7 @@ through SN21 (1 port, 0% loss); restoring returns 2 ports and 0% loss.
 .
 ├── README.md
 ├── topology/
-│   ├── topology.png                         # static frame of the animated SVG
+│   ├── topology.png                         # static topology preview
 │   └── SONIC_ESI_MULTISITE.unl              # EVE-NG lab file (sanitized)
 ├── configs/
 │   ├── nxos/                                # SPN11/21, LF11/21, BGW11/21
@@ -114,9 +100,7 @@ through SN21 (1 port, 0% loss); restoring returns 2 ports and 0% loss.
 │   ├── validation.md
 │   ├── troubleshooting.md
 │   ├── traffic-filters.md
-│   ├── SONIC_ESI_MULTISITE_ANIMATED.svg
-│   ├── SONIC_ESI_MULTISITE_ANIMATED.gif
-│   └── canvas.md
+│   └── SONIC_ESI_MULTISITE_ANIMATED.svg
 └── validation/
     └── traffic_filters.json
 ```

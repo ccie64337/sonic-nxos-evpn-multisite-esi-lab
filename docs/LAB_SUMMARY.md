@@ -65,8 +65,8 @@ restore.
 ## Artifacts
 
 - Lab file: `topology/SONIC_ESI_MULTISITE.unl`
+- Topology preview: `topology/topology.png`
 - Animated diagram: `docs/SONIC_ESI_MULTISITE_ANIMATED.svg`
-- Animated GIF: `docs/SONIC_ESI_MULTISITE_ANIMATED.gif`
 - Configs: `configs/nxos/`, `configs/sonic/`, `configs/hosts/`
 - Details: `docs/architecture.md`, `docs/ip-plan.md`,
   `docs/build-guide.md`, `docs/validation.md`
