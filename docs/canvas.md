@@ -62,9 +62,9 @@ The live lab keeps its own credentials.
 ## Animated SVG
 
 `SONIC_ESI_MULTISITE_ANIMATED.svg` is a self-contained animated diagram. It
-uses a high-contrast NOC theme with glass site cards, glowing stencils, a
-central DCI core, and animated packet dots. It uses actual Cisco 19 stencil
-paths:
+uses a clean flat theme with white site cards, flat Cisco 19 stencils, a
+central DCI core, and subtle animated flow lines. It uses actual Cisco 19
+stencil paths:
 
 - `mxgraph.cisco19.nexus_9300` for all switches (N9Kv and SONiC)
 - `mxgraph.cisco19.server` for hosts
