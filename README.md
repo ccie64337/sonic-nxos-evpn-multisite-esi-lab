@@ -8,8 +8,6 @@ overlay is iBGP EVPN; the DCI is a Cisco EVPN Multi-Site border-gateway pair.
 EP12 is dual-homed to the two SONiC leaves with an ESI LAG and an anycast
 gateway, so it stays reachable across the DCI and during leaf failover.
 
-**Lab summary:** [`docs/LAB_SUMMARY.md`](docs/LAB_SUMMARY.md)
-
 ![Topology](topology/topology.png)
 
 Static topology preview. The editable EVE-NG lab is
@@ -93,7 +91,6 @@ through SN21 (1 port, 0% loss); restoring returns 2 ports and 0% loss.
 │   ├── sonic/SN11, SN21/                    # FRR + lab CONFIG_DB subset
 │   └── hosts/                               # EP11/EP12/EP21 host state
 ├── docs/
-│   ├── LAB_SUMMARY.md
 │   ├── architecture.md
 │   ├── ip-plan.md
 │   ├── build-guide.md
